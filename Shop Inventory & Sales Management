@@ -1,0 +1,81 @@
+Shop Inventory & Sales Management System
+A menu-driven inventory and sales management application built using Python. This project helps manage shop products, monitor stock quantities, process sales transactions, and maintain transaction history using Python dictionaries.
+
+Features
+-Display Products:View all products with their IDs, names, prices, and quantities.
+- Search Products:Find a product using its unique product ID.
+- Add Products:Add new products to the inventory.
+- Update Products:Change product names, prices, and stock quantities.
+- Delete Products:Remove products from the inventory.
+- Check Product Availability:Check whether a product exists.
+- Count Products:Display the number of different products.
+- Calculate Inventory Value:Calculate the total value of available stock.
+- Process Sales:Sell products while checking stock availability.
+- Generate Sales Receipts:Display transaction details and the total amount.
+- Track Sales History:View previously recorded transactions during the current session.
+
+Technologies Used
+- Python 3
+- Dictionaries and nested dictionaries
+- while loops and for loops
+- Conditional statements (if,elif,else)
+- User input and type conversion
+- Dictionary operations: adding, accessing, updating, and deleting entries
+- Basic arithmetic and calculations
+
+Getting Started
+Prerequisites
+Install Python 3 on your computer.
+Installation
+1. Clone this repository:
+   git clone YOUR_REPOSITORY_URL
+2. Open the project folder:
+   cd shop-inventory-manager
+3. Run the Python program:
+   python main.py
+
+How to Use
+1. Run the program.
+2. Select an option from the displayed menu.
+3. Enter the requested product information.
+4. To record a sale, select "Record a Sale" and enter the product ID and quantity.
+5. View the receipt and remaining stock.
+6. Select "View Sales Transactions" to review recorded sales.
+7. Choose "Exit" to close the program.
+
+Example
+Suppose a customer purchases three notebooks at 120 each.
+- Product: Notebook
+- Quantity sold: 3
+- Unit price: 120
+- Total amount: 360
+- Remaining stock: 22
+The program records the transaction and updates the notebook quantity.
+
+Learning Objectives
+This project was developed to practice fundamental Python programming concepts, especially:
+- Working with dictionaries and nested dictionaries
+- Accessing values using keys
+- Iterating through dictionary items
+- Adding, updating, and deleting dictionary entries
+- Using conditions to validate user choices
+- Applying loops to create a repeating menu
+- Calculating sales totals and inventory value
+
+Limitations
+- Inventory and sales data are stored in memory.
+- Data resets when the program exits.
+- Sales transactions are recorded only during the current session.
+- The application does not yet include a database, file persistence, or a graphical interface.
+
+Future Improvements
+- Save inventory and sales records to files.
+- Add date and time to each transaction.
+- Generate daily and monthly sales reports.
+- Add low-stock alerts.
+- Implement customer records.
+- Add a database and graphical user interface.
+
+Author
+Nikita Chaudhary
+Developed as a Python learning project to practice dictionaries, loops, conditional statements, and basic inventory management.
